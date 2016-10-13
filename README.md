@@ -17,7 +17,7 @@ As root, run the script with the command: # sh full-db-psql.sh.
 
 ~:$ cd PostgreSQL-bkp-script/
 
--:$ sudo su -
+-:$ sudo su
 
 -:$ mkdir /backup
 
@@ -26,6 +26,8 @@ As root, run the script with the command: # sh full-db-psql.sh.
 -:$ cd /backup
 
 -:$ chmod a+x full-db-psql.sh
+
+-:$ vi full-db-psql.sh <- Change the variables
 
 ~:$ sh full-db-psql.sh
 
