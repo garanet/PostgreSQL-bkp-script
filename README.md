@@ -11,23 +11,23 @@ Make sure the script owner is root and changes the permissions in 744.
 
 As root, run the script with the command: # sh full-db-psql.sh.
 
-@ Procedure
+@ Procedure to use it.
 
 ~:$ git clone https://github.com/garanet/PostgreSQL-bkp-script.git
 
 ~:$ cd PostgreSQL-bkp-script/
 
--:$ sudo su
+~:$ sudo su
 
--:$ mkdir /backup
+~:$ mkdir /backup
 
 ~:$ mv full-db-psql.sh /backup 
 
--:$ cd /backup
+~:$ cd /backup
 
--:$ chmod a+x full-db-psql.sh
+~:$ chmod a+x full-db-psql.sh
 
--:$ vi full-db-psql.sh <- Change the variables
+~:$ vi full-db-psql.sh <--> Change the variables
 
 ~:$ sh full-db-psql.sh
 
